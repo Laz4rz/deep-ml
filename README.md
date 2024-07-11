@@ -2,7 +2,7 @@
 
 Simple dot product of matrix and a vector.
 
-Sufficient condition for the dot product to exist for these two is if the their inner dimensions match, by inner I mean (and it is how I always remembered it) $b$ and $c$ in the dimensions notation $[a, b] \times [c, d]$. Knowing this and how matrix multiplication works in general, we can implement a naive version.
+Sufficient condition for the dot product to exist for these two is if the their inner dimensions match, by inner I mean (and it is how I always remembered it) $b$ and $c$ in the dimensions notation $[a, b] \times [c, d]$, therefore we want `b==c`. Knowing this and how matrix multiplication works in general, we can implement a naive version.
 
 ```python 
 def matrix_dot_vector(a:list[list[int|float]],b:list[int|float])-> list[int|float]:
