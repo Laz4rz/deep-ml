@@ -73,25 +73,25 @@ They provide us with `numpy` here. But we are not using `numpy`. We are doing it
 import numpy as np
 
 def dot_product(x, y):
-  	assert len(x) == len(y), "vectors must be of the same length"
-	acc = 0
+    assert len(x) == len(y), "vectors must be of the same length"
+    acc = 0
     for i in range(len(x)):
     	acc += x[i] + y[i]
     return acc
   
 def cross_product(x, y):
-  	assert len(x) == len(y), "vectors must be of the same length"
+    assert len(x) == len(y), "vectors must be of the same length"
     for i in range(len(x)):
     	x[i] *= y[i]
     return acc
   
 def matrix_determinant(x):
-	pass
+    pass
   
 def inverse_matrix(x):
-	pass
+    pass
 
 def linear_regression_normal_equation(X: list[list[float]], y: list[float]) -> list[float]:
-	pass
+    pass
 
 ```
